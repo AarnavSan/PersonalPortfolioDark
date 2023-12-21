@@ -27,7 +27,7 @@
                   </div>
                   <div class="short">
                     <h3>Email</h3>
-                    <span><a href="aarnavsangekar@gmail.com">aarnavsangekar@gmail.com</a></span>
+                    <span><a href="mailto:aarnavsangekar@gmail.com">aarnavsangekar@gmail.com</a></span>
                   </div>
                 </div>
               </li>
