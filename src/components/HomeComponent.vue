@@ -43,7 +43,7 @@
           </div>
           <div class="avatar">
             <div class="image">
-              <!-- <img src="/img/slider/avatar.png" alt="" /> -->
+              <img src="/img/slider/Aarnav1.png" alt="" />
             <span
                 class="skills figma anim_moveBottom"
                 v-html="unity"
