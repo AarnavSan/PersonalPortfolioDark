@@ -4,8 +4,10 @@
       <div class="mobile_in">
         <div class="logo">
           <a href="#"
-            ><img :src="`img/logo/${dark ? 'dark' : 'logo'}.png`" alt=""
-          /></a>
+            >
+            <img :src="`img/logo/Aarnav_site_banner.png`" alt=""/>
+            <!-- <img :src="`img/logo/${dark ? 'dark' : 'logo'}.png`" alt=""/> -->
+        </a>
         </div>
         <div class="trigger" @click="activeToggle()">
           <div
