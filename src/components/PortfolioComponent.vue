@@ -103,33 +103,33 @@
             </li>
             <!-- EXPLOAR ENDS -->
 
-            <!-- GREETAR STARTS -->
-            <li class="arvr grid-item">
+              <!-- DONUT 4.0 STARTS -->
+              <li class="threed grid-item">
               <div class="inner">
                 <div
                   class="entry dizme_tm_portfolio_animation_wrap"
-                  data-title="GreetAR"
-                  data-category="AR/VR"
+                  data-title="Blender Donut"
+                  data-category="3D Design"
                 >
                   <a
-                    class="portfolio_popup"
+                    class="popup-youtube"
                     href="#"
-                    @click.prevent="active = 2"
+                    @click.prevent="() => onClick('youtube', 'HP_MO3aRzkw')"
                   >
                     <img src="/img/thumbs/42-34.jpg" alt="" />
-                    <div class="main" data-img-url="/img/portfolio/projects/greetar/greet_ar_show.jpg"></div>
+                    <div class="main" data-img-url="/img/portfolio/blender/blenderdonut.png"></div>
                   </a>
                 </div>
                 <div class="mobile_title">
-                  <h3>GreetAR</h3>
-                  <span>AR/VR</span>
+                  <h3>Blender Donut</h3>
+                  <span>3D Design</span>
                 </div>
               </div>
             </li>
-            <!-- GREETAR ENDS -->
+            <!-- DONUT 4.0 ENDS -->
 
             <!-- HMAN ADVENTURES STARTS -->
-            <li class="gamedev grid-item">
+              <li class="gamedev grid-item">
               <div class="inner">
                 <div
                   class="entry dizme_tm_portfolio_animation_wrap"
@@ -152,56 +152,6 @@
               </div>
             </li>
             <!-- HMAN ADVENTURES ENDS -->
-
-            <!-- AUTOTOLLER STARTS -->
-            <li class="iot grid-item">
-              <div class="inner">
-                <div
-                  class="entry dizme_tm_portfolio_animation_wrap"
-                  data-title="AutoToller"
-                  data-category="IoT"
-                >
-                  <a
-                    class="portfolio_popup"
-                    href="#"
-                    @click.prevent="active = 4"
-                  >
-                    <img src="/img/thumbs/42-34.jpg" alt="" />
-                    <div class="main" data-img-url="/img/portfolio/projects/autotoller/auto_toller_setup.jpg"></div>
-                  </a>
-                </div>
-                <div class="mobile_title">
-                  <h3>AutoToller</h3>
-                  <span>IoT</span>
-                </div>
-              </div>
-            </li>
-            <!-- AUTOTOLLER ENDS -->
-
-            <!-- DONUT 4.0 STARTS -->
-            <li class="threed grid-item">
-              <div class="inner">
-                <div
-                  class="entry dizme_tm_portfolio_animation_wrap"
-                  data-title="Blender Donut"
-                  data-category="3D Design"
-                >
-                  <a
-                    class="popup-youtube"
-                    href="#"
-                    @click.prevent="() => onClick('youtube', 'HP_MO3aRzkw')"
-                  >
-                    <img src="/img/thumbs/42-56.jpg" alt="" />
-                    <div class="main" data-img-url="/img/portfolio/blender/blenderdonut.png"></div>
-                  </a>
-                </div>
-                <div class="mobile_title">
-                  <h3>Blender Donut</h3>
-                  <span>3D Design</span>
-                </div>
-              </div>
-            </li>
-            <!-- DONUT 4.0 ENDS -->
 
             <!-- HOLONUT STARTS -->
             <li class="threed grid-item">
@@ -252,6 +202,56 @@
               </div>
             </li>
             <!-- EARTH ENDS -->
+
+            <!-- GREETAR STARTS -->
+            <li class="arvr grid-item">
+              <div class="inner">
+                <div
+                  class="entry dizme_tm_portfolio_animation_wrap"
+                  data-title="GreetAR"
+                  data-category="AR/VR"
+                >
+                  <a
+                    class="portfolio_popup"
+                    href="#"
+                    @click.prevent="active = 2"
+                  >
+                    <img src="/img/thumbs/42-34.jpg" alt="" />
+                    <div class="main" data-img-url="/img/portfolio/projects/greetar/greet_ar_show.jpg"></div>
+                  </a>
+                </div>
+                <div class="mobile_title">
+                  <h3>GreetAR</h3>
+                  <span>AR/VR</span>
+                </div>
+              </div>
+            </li>
+            <!-- GREETAR ENDS -->
+
+            <!-- AUTOTOLLER STARTS -->
+            <li class="iot grid-item">
+              <div class="inner">
+                <div
+                  class="entry dizme_tm_portfolio_animation_wrap"
+                  data-title="AutoToller"
+                  data-category="IoT"
+                >
+                  <a
+                    class="portfolio_popup"
+                    href="#"
+                    @click.prevent="active = 4"
+                  >
+                    <img src="/img/thumbs/42-56.jpg" alt="" />
+                    <div class="main" data-img-url="/img/portfolio/projects/autotoller/auto_toller_setup.jpg"></div>
+                  </a>
+                </div>
+                <div class="mobile_title">
+                  <h3>AutoToller</h3>
+                  <span>IoT</span>
+                </div>
+              </div>
+            </li>
+            <!-- AUTOTOLLER ENDS -->
 
 
           </ul>
