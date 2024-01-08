@@ -253,6 +253,131 @@
             </li>
             <!-- AUTOTOLLER ENDS -->
 
+            <!-- SOFA STARTS -->
+            <li class="threed grid-item">
+              <div class="inner">
+                <div
+                  class="entry dizme_tm_portfolio_animation_wrap"
+                  data-title="A Sofa So Good"
+                  data-category="3D Design"
+                >
+                  <a
+                    class="zoom"
+                    href="#"
+                    @click.prevent="() => onClick('img', 'img/portfolio/blender/sofa.png')"
+                  >
+                    <img src="/img/thumbs/42-34.jpg" alt="" />
+                    <div class="main" data-img-url="/img/portfolio/blender/sofa.png"></div>
+                  </a>
+                </div>
+                <div class="mobile_title">
+                  <h3>A Sofa So Good</h3>
+                  <span>3D Design</span>
+                </div>
+              </div>
+            </li>
+            <!-- SOFA ENDS -->
+
+            <!-- DonutBreakfast STARTS -->
+            <li class="threed grid-item">
+              <div class="inner">
+                <div
+                  class="entry dizme_tm_portfolio_animation_wrap"
+                  data-title="Breakfast with a Donut"
+                  data-category="3D Design"
+                >
+                  <a
+                    class="zoom"
+                    href="#"
+                    @click.prevent="() => onClick('img', 'img/portfolio/blender/Breakfast.png')"
+                  >
+                    <img src="/img/thumbs/42-34.jpg" alt="" />
+                    <div class="main" data-img-url="/img/portfolio/blender/Breakfast.png"></div>
+                  </a>
+                </div>
+                <div class="mobile_title">
+                  <h3>Breakfast with a Donut</h3>
+                  <span>3D Design</span>
+                </div>
+              </div>
+            </li>
+            <!-- DonutBreakfast ENDS -->
+
+            <!-- TEDxACE Virtual Stage STARTS -->
+            <li class="threed grid-item">
+              <div class="inner">
+                <div
+                  class="entry dizme_tm_portfolio_animation_wrap"
+                  data-title="TEDxACE Virtual Stage"
+                  data-category="3D Design"
+                >
+                  <a
+                    class="portfolio_popup"
+                    href="#"
+                    @click.prevent="active = 5"
+                  >
+                    <img src="/img/thumbs/42-34.jpg" alt="" />
+                    <div class="main" data-img-url="/img/portfolio/projects/tedxace/tedxace_stage.png"></div>
+                  </a>
+                </div>
+                <div class="mobile_title">
+                  <h3>TEDxACE Virtual Stage</h3>
+                  <span>3D Design</span>
+                </div>
+              </div>
+            </li>
+            <!-- TEDxACE Virtual Stage ENDS -->
+
+            <!-- CHAIR STARTS -->
+            <li class="threed grid-item">
+              <div class="inner">
+                <div
+                  class="entry dizme_tm_portfolio_animation_wrap"
+                  data-title="Chair"
+                  data-category="3D Design"
+                >
+                  <a
+                    class="zoom"
+                    href="#"
+                    @click.prevent="() => onClick('img', 'img/portfolio/blender/chair.png')"
+                  >
+                    <img src="/img/thumbs/42-56.jpg" alt="" />
+                    <div class="main" data-img-url="/img/portfolio/blender/chair.png"></div>
+                  </a>
+                </div>
+                <div class="mobile_title">
+                  <h3>Chair</h3>
+                  <span>3D Design</span>
+                </div>
+              </div>
+            </li>
+            <!-- CHAIR ENDS -->
+
+            <!-- APARTMENT STARTS -->
+            <li class="threed grid-item">
+              <div class="inner">
+                <div
+                  class="entry dizme_tm_portfolio_animation_wrap"
+                  data-title="A model apartment"
+                  data-category="3D Design"
+                >
+                  <a
+                    class="zoom"
+                    href="#"
+                    @click.prevent="() => onClick('img', 'img/portfolio/blender/apartment.png')"
+                  >
+                    <img src="/img/thumbs/42-34.jpg" alt="" />
+                    <div class="main" data-img-url="/img/portfolio/blender/apartment.png"></div>
+                  </a>
+                </div>
+                <div class="mobile_title">
+                  <h3>A model apartment</h3>
+                  <span>3D Design</span>
+                </div>
+              </div>
+            </li>
+            <!-- APARTMENT ENDS -->
+
 
           </ul>
         </div>
@@ -670,7 +795,7 @@
               </li>
               <li>
                 <span class="first">Category</span>
-                <span><a href="#">AR/VR</a></span>
+                <span><a href="#">Game Development</a></span>
               </li>
               <!-- <li>
                 <span class="first">Date</span>
@@ -725,8 +850,8 @@
     </div>
   <!-- POPUP 3 HMANADVENTURES ENDS -->
 
-    <!-- POPUP 4 AUTOTOLLER -->
-    <div :class="`${active === 4 ? '' : 'hidden_content'}`">
+  <!-- POPUP 4 AUTOTOLLER -->
+  <div :class="`${active === 4 ? '' : 'hidden_content'}`">
     <ModalBox :close="close">
 
       <div class="popup_details">
@@ -836,7 +961,7 @@
               </li>
               <li>
                 <span class="first">Category</span>
-                <span><a href="#">AR/VR</a></span>
+                <span><a href="#">IoT</a></span>
               </li>
               <!-- <li>
                 <span class="first">Date</span>
@@ -890,6 +1015,143 @@
     </ModalBox>
     </div>
   <!-- POPUP 4 AUTOTOLLER ENDS -->
+
+  <!-- POPUP 5 TEDxACE -->
+  <div :class="`${active === 5 ? '' : 'hidden_content'}`">
+  <ModalBox :close="close">
+
+    <div class="popup_details">
+      
+      <div class="top_image">
+        <img src="/img/portfolio/projects/tedxace/tedxace_stage.png" alt="" />
+
+        <div
+          class="main"
+          data-img-url="/img/portfolio/projects/tedxace/tedxace_stage.png"
+          style="background-image: url('/img/portfolio/projects/tedxace/tedxace_stage.png')"
+        ></div> 
+        
+      </div>
+      <div class="portfolio_main_title">
+        <h3>TEDxACE Virtual Stage</h3>
+        <span><a href="#">3D Design</a></span>
+        <div></div>
+      </div>
+      <div class="main_details">
+        <div class="textbox">
+          <p style="text-align:justify">
+            The TEDxACE 2021 and TEDxACE 2022 events were held virtually due to the Covid 2020 pandemic. 
+            As the only other member of the video production team during TEDxACE 2022, I noticed the lack of a uniform  background in our speakers' videos from TEDxACE 2021. 
+            Since every speaker had  recorded their talks at each of their own places, we had a wide variety of backgrounds in these videos.<br><br>
+            <iframe style="padding-right:40px" width="300" height="200" src="https://www.youtube.com/embed/4qmj72FYjLc" title="Solving water scarcity with river rejuvenation project | Ravindra Desai | TEDxACE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="200" height="200" src="https://www.youtube.com/embed/aiwfVSATUxo" title="How dance helps you rise up on your feet! | Akshay Bhosale | TEDxACE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <br><br>
+            To solve this problem of a non-uniform background for our 2022 event, 
+            I proposed the idea of a 3D-rendered custom made TEDxACE stage. 
+            Once accepted by the licensee and co-licensee of TEDxACE, 
+            I began prototyping and rendering different combinations of these stages using Blender.<br><br>
+
+            <img src="/img/portfolio/projects/tedxace/tedxace_frontstage_2.png" alt="" /><br>
+
+            
+            I experimented by adding different lights and different props, almost all of which were custom made.             
+            These props included wireframe lightbulbs and cones, a 3D representation of our event logo etc.<br><br>
+            <img src="/img/portfolio/projects/tedxace/tedxace_frontstage_9.png" alt="" /><br>
+
+            After a lot of suggestions and changes, we settled on the following final virtual background:<br><br>
+            <img src="/img/portfolio/projects/tedxace/tedxace_stage.png" alt="" /><br>
+
+            This background was chosen for all our videos, and you can see the videos of TEDxACE 2022 on the official TEDx channel. Here is a playlist of those videos:<br><br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=J6nuG-6tXKVMEOFa&amp;list=PLjZMwzLv2Pf2e8o-p3pbts4pT5cCGv7BD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            The following are all of the prototype renders I made for the TEDxACE Virtual Stage:<br><br>
+          </p>
+        </div>
+        <div class="detailbox">
+          <ul>
+            <li>
+              <span class="first">Technologies</span>
+              <div class="margin-right justify-center ga-2 mt-2">          
+            <v-chip 
+              id="blender"
+              class="mr-2 ma-2"
+              size="x-small"
+              pill
+              v-bind="props"
+            >
+            <v-avatar start>
+              <v-img src="img/svg/skills/blender.svg"></v-img>
+            </v-avatar>
+            Blender
+          </v-chip>
+          <v-chip 
+              id="adobe-premiere"
+              class="mr-2 ma-2"
+              size="x-small"
+              pill
+              v-bind="props"
+            >
+            <v-avatar start>
+              <v-img src="img/svg/skills/adobe-premiere.svg"></v-img>
+            </v-avatar>
+            Adobe Premiere Pro
+          </v-chip>
+      </div>
+            </li>
+            <li>
+              <span class="first">Category</span>
+              <span><a href="#">3D Design</a></span>
+            </li>
+            <!-- <li>
+              <span class="first">Date</span>
+              <span>March 2021</span>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+      <div class="additional_images">
+        <ul>
+          <li v-for="n in 12" :key="n">
+          <div class="list_inner">
+            <div class="my_image">
+              <img :src="`/img/portfolio/projects/tedxace/tedxace_frontstage_${n}.png`" alt="" />
+              <div
+                class="main"
+                :data-img-url="`/img/portfolio/projects/tedxace/tedxace_frontstage_${n}.png`"
+                :style="{ backgroundImage: `url('/img/portfolio/projects/tedxace/tedxace_frontstage_${n}.png')` }"
+              ></div>
+            </div>
+          </div>
+          </li>
+          <li v-for="n in 4" :key="n">
+          <div class="list_inner">
+            <div class="my_image">
+              <img :src="`/img/portfolio/projects/tedxace/tedxace_sideview${n}.png`" alt="" />
+              <div
+                class="main"
+                :data-img-url="`/img/portfolio/projects/tedxace/tedxace_sideview${n}.png`"
+                :style="{ backgroundImage: `url('/img/portfolio/projects/tedxace/tedxace_sideview${n}.png')` }"
+              ></div>
+            </div>
+          </div>
+          </li>
+          <li >
+          <div class="list_inner">
+            <div class="my_image">
+              <img :src="`/img/portfolio/projects/tedxace/tedxace_stage.png`" alt="" />
+              <div
+                class="main"
+                :data-img-url="`/img/portfolio/projects/tedxace/tedxace_stage.png`"
+                :style="{ backgroundImage: `url('/img/portfolio/projects/tedxace/tedxace_stage.png')` }"
+              ></div>
+            </div>
+          </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </ModalBox>
+  </div>
+  <!-- POPUP 5 TEDxACE ENDS -->
 
 <!-- POPUPS END -->
 </template>
@@ -966,9 +1228,6 @@ export default {
   components: { MagnificPopUpVue, ModalBox },
 };
 </script>
-
-
-
 
 
 <!-- <li class="arvr grid-item">
