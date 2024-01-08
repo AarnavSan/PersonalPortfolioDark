@@ -17,7 +17,7 @@
             <div class="job">
               <p>
                 An <span class="greenText">Engineer</span> From
-                <span class="purpleText">Mumbai</span>
+                <span class="purpleText">India</span>
               </p>
             </div>
             <div class="text">
@@ -43,7 +43,7 @@
           </div>
           <div class="avatar">
             <div class="image">
-              <img src="/img/slider/Aarnav1.png" alt="" />
+              <img src="/img/slider/Aarnav edited Designer.png" alt="" />
             <span
                 class="skills figma anim_moveBottom"
                 v-html="unity"
@@ -55,7 +55,7 @@
         </div>
       </div>
       <div class="dizme_tm_down">
-        <a class="anchor" href="#process" v-html="dark ? mouseDark : mouse">
+        <a class="anchor" href="#about" v-html="dark ? mouseDark : mouse">
         </a>
       </div>
     </div>

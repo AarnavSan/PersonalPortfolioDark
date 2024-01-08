@@ -4,10 +4,11 @@
       <div class="container">
         <div class="wrapper">
           <div class="left">
+            <img src="/img/slider/Aarnav_eyantra_exhibition.png" alt="" />
           </div>
           <div class="right">
             <div class="title wow fadeInUp" data-wow-duration="1s">
-              <span>I'm a Creator</span>
+              <span>I am a Creative Engineer</span>
               <h3>I come up with creative ideas for existing problems!</h3>
             </div>
             <div class="text wow fadeInUp" data-wow-duration="1s">
