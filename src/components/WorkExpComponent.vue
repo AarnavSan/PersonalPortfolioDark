@@ -49,7 +49,7 @@
             :src="`//www.youtube.com/embed/${item.yt_src}?autoplay=1`"
             frameBorder="0"
             allowFullScreen
-          /></div>
+          /><br><p style="font-size: small; font-family: Arial, Helvetica, sans-serif; color: #b9b9b9;">{{ yt_desc }}</p></div>
       
     </v-card>
 
@@ -103,11 +103,12 @@ export default {
           color: 'red-lighten-2',
           date: "May 2023 - July 2023",
           yt_src:"h9M9yFwOHIg",
+          yt_desc:"e-Yantra Virtual Museum Project Demo (demo voiceover done by Aarnav)",
           points: [
             "Designed and developed a 3D Virtual Museum website.",
             "The virtual museum dynamically expands based on the number of artifacts stored in the database",
             "Took a session on \"sense-act-think\" paradigm with 50 Bhutanese school students from Royal Academy of Bhutan.",
-            "Presented A Virtual Reality based Virtual Museum at Akhil Bharatiya Shiksha Samagam 2023 inaugurated by the Hon'ble Prime Minister at Bharat Mandapam, Pragati Maidan, New Delhi.",
+            "Presented A Virtual Reality based Virtual Museum at Akhil Bharatiya Shiksha Samagam 2023 inaugurated by the Hon'ble Prime Minister at Bharat Mandapam, Pragati Maidan, New Delhi.",          
           ],
           detail: {
             images :[],
@@ -122,9 +123,11 @@ export default {
           iconBg: "#FFFFFF",
           date: "Jan 2021 - Feb 2022",
           yt_src:"",
+          yt_desc:  "",
           points: [
             "Worked on a virtual reality experience for a leading German company.",
-            "Worked on Unity 3D, Made a virtual reality application working on HTC Vive.",    
+            "Designed and Modelled the 3D Elevator and Elevator Panels and parts using Blender",
+            "Using Unity 3D, I developed a virtual reality application working on HTC Vive.",
           ],
           detail: {
             images :[],

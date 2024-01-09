@@ -18,7 +18,7 @@
                 on personal projects related to educational technologies in the field of 
                 XR (eXtended Reality) and Game Development! I'm a highly motivated individual who wants to 
                 create a world where learning is fun and interesting. 
-                I have worked in my college's GDSC ACE community as the AR/VR and Game Development Lead.
+                I have worked in my college's GDSC ACE community as the AR/VR and Game Development Lead. I am the current chairperson of CSI - ACE.
                 I have also been a curation lead and video production lead at 
                 <a href="https://tedxace.com/" style="color: rgb(255,43,6);">
                   TEDxACE</a>.

@@ -85,7 +85,7 @@
                 <!-- Right Column -->
                 <v-col cols="9">
                   <v-card-title class="title-text">
-                    Technlogical Tools
+                    Technological Tools
                   </v-card-title>
                   <v-card-text class="list-container card-text">
                     <ul>
@@ -225,6 +225,7 @@ img {
   color: #fff;
   font-size: 30px;
   padding-top: 50px;
+  padding-left: 10px;
 }
 
 .list-container {
