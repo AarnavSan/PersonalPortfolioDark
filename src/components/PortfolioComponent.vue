@@ -748,10 +748,6 @@
               I made this game as a sort of tribute to one of my closest friends, who helps us out a lot.<br><br>
 
               <img src="/img/portfolio/projects/hman/hman_adv_ingame4.png" alt="" /><br>
-              I used Unity for the 3D development engineer, 
-              Vuforia Plugin for adding Image Target based Augmented Reality 
-              and Blender for making 3D models for the application. 
-              The Greeting Card was designed in Canva.
             </p>
           </div>
           <div class="detailbox">
